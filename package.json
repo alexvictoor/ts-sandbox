@@ -1,0 +1,20 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "mocha output/test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.2.0",
+    "rx": "^4.0.7",
+    "typescript": "^1.7.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
