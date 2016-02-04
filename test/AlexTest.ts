@@ -2,7 +2,7 @@
 import Calculatorsdz from '../alex';
 import { expect } from 'chai';
 import { Observable }   from 'rx';
-import Cpx  from 'complex';
+//import Cpx  from 'complex';
 
 describe('Sandbox rx', () => {
     /*var posi = new Complex(2, 3);
