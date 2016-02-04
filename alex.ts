@@ -1,13 +1,15 @@
-// import {Observable, Observer, Subject, ReplaySubject, Operator , Rx  }  from 'Rx';
+import { Observable, Observer }   from 'rx';
+//import {Observable, Observer, Subject, ReplaySubject, Operator , Rx  }  from 'rx';
 //import Complex from 'complex'
+
 
 export default class Kata {
 
 
-    add(source : Rx.Observable<String>) : Rx.Observable<String> {
+    add(source : Observable<String>) : Observable<String> {
 
-        console.log(Complex.from(1, 2));
+        //console.log(Complex.from(1, 2));
 
-        return Rx.Observable.create( (obs:Rx.Observer<String>) => {});
+        return Observable.create( (obs: Observer<String>) => {});
     }
 }

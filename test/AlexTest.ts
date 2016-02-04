@@ -16,7 +16,7 @@ describe('Sandbox rx', () => {
 });
 
 describe('Sandbox rx number', () => {
-  
+
 
     //var posi = new Cpx(2, 3);
     //var pos = Cpx.from(10, 10);
